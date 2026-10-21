@@ -1,0 +1,50 @@
+{
+  "domain": "repubblica.it",
+  "registrableDomain": "repubblica.it",
+  "score": 84,
+  "grade": "B",
+  "criticalCount": 0,
+  "issueCodes": [
+    "NO_TRANSFER_LOCK",
+    "NO_DNSSEC",
+    "NO_CAA",
+    "DMARC_POLICY_NONE",
+    "MTA_STS_MISSING",
+    "TLS_RPT_MISSING",
+    "HSTS_MISSING"
+  ],
+  "registered": true,
+  "registrar": "Gandi SAS",
+  "expiresAt": "2027-01-16T00:00:00.000Z",
+  "daysToExpiry": 101,
+  "dnssec": false,
+  "nameservers": [
+    "ns-1477.awsdns-56.org",
+    "ns-1541.awsdns-00.co.uk",
+    "ns-353.awsdns-44.com",
+    "ns-723.awsdns-26.net"
+  ],
+  "mailProvider": "Microsoft 365",
+  "spfRecord": "v=spf1 ip4:178.23.254.18 include:spf-smtp.kataweb.it include:spf.protection.outlook.com include:musvc.com -all",
+  "spfAll": "-",
+  "dmarcPolicy": "none",
+  "dkimSelectorsFound": [
+    "selector1"
+  ],
+  "tlsTrusted": true,
+  "certIssuer": "Amazon",
+  "certDaysToExpiry": 153,
+  "redirectsToHttps": true,
+  "hsts": false,
+  "coverageComplete": true,
+  "checkErrors": [],
+  "durationMs": 3699,
+  "issues": [
+    {
+      "code": "DMARC_POLICY_NONE",
+      "severity": "medium",
+      "area": "email",
+      "message": "DMARC p=none: monitoring only, spoofed mail is still delivered."
+    }
+  ]
+}

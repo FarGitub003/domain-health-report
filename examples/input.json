@@ -1,0 +1,11 @@
+{
+  "domains": ["github.com", "https://www.cloudflare.com/", "repubblica.it", "expired.badssl.com"],
+  "checkRegistration": true,
+  "checkEmail": true,
+  "checkTls": true,
+  "dkimSelectors": ["mycompany2026"],
+  "includeRawRecords": false,
+  "timeoutSecs": 15,
+  "concurrency": 10,
+  "maxDomains": 0
+}
