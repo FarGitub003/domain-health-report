@@ -1,6 +1,6 @@
 # Domain Health Report: DNS, Email Auth, TLS, Expiry
 
-Score 0-100 per domain: registration & expiry (RDAP/WHOIS), DNS, SPF/DKIM/DMARC/MTA-STS, TLS certificate, HTTPS redirect. Bulk, no login.
+Checks domains for registration expiry (RDAP/WHOIS), DNS, SPF/DMARC/DKIM/MTA-STS, TLS certificate and HTTPS redirect. Input: domains, URLs or emails. Returns one record per domain: 0-100 score, grade A-F, coded issues. Public data only, no login. DKIM found only on common selectors.
 
 **▶ Run it on Apify Store: https://apify.com/far003/domain-health-report**
 
@@ -153,7 +153,7 @@ print(items)
 
 ## Pricing
 
-Pay per result — see the current price on the Store page.
+Pay per event, no subscription. The current price, and what is free, is on the [Apify Store page](https://apify.com/far003/domain-health-report).
 
 ## Data source & licence
 
